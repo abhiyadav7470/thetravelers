@@ -1,0 +1,96 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/pexels-errin-casano-2356045.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#mainContainer {
+    color: rgb(255, 255, 255);
+    font-size: 4vmin;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+#mainContainer a {
+    background-color: rgb(216, 40, 166);
+    text-decoration: none;
+    color: white;
+    font-size: 2vmin;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#subtitle {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 7vmin;
+}
+
+.line {
+    background-color: rgb(216, 40, 166);
+    width: 50%;
+    height: 4px;
+    margin: auto;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+.navbar {
+    position: absolute;
+    left: 0px;
+    right: 50px;
+    top: 0px;
+    font-size: 2.5vmin;
+    height: 8vmin;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#logoimages {
+    display: flex;
+    align-items: center;
+    font-size: 2.5vw;
+    justify-content: left;
+    height: 8vmin;
+    position: absolute;
+    color: rgb(216, 40, 166);
+    z-index: 10;
+    margin-left: 2vmin;
+}
+
+.navbar ul {}
+
+.navbar ul li {
+    list-style: none;
+    float: left;
+    margin-left: 5vmin;
+}
+
+.navbar ul li a {
+    color: rgb(232, 64, 184);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    border-left: 3px solid rgb(216, 40, 166);
+}
+
+.navbar ul li a:hover {
+    color: white;
+    background-color: rgb(216, 40, 166);
+}
+
+.navbar ul li a:active {
+    scale: 2;
+}
