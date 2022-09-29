@@ -12,7 +12,7 @@ html {
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(images/mainImage.jpg);
+    background-image: url(images/pexels-simon-berger-1183099.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -75,9 +75,12 @@ header {
     justify-content: left;
     height: 8vmin;
     position: absolute;
-    color: rgb(216, 40, 166);
+    color: whitesmoke;
     z-index: 10;
-    margin-left: 2vmin;
+    margin-left: 4vmin;
+    padding: 10px;
+    border-left: 5px solid rgb(216, 40, 166);
+    border-radius: 80px;
 }
 
 .navbar ul {
@@ -92,7 +95,7 @@ header {
 }
 
 .navbar ul li a {
-    color: rgb(232, 64, 184);
+    color: whitesmoke;
     text-decoration: none;
     border-radius: 20px;
     padding: 15%;
