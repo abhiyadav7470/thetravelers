@@ -14,6 +14,7 @@ header {
     height: 100vh;
     background-image: url(images/mainImage.jpg);
     background-size: cover;
+    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -302,5 +303,22 @@ p {
         color: white;
         z-index: 10;
         margin-left: 2vmin;
+    }
+    /*event section*/
+    .row {
+        flex-direction: column;
+    }
+    .row .col {
+        margin: 20px auto;
+        text-align: center;
+    }
+    .row .col h4 {
+        margin: 10px auto;
+    }
+    .row .col .buttons {
+        margin-top: 10px;
+    }
+    .col img {
+        max-width: 90%;
     }
 }
