@@ -134,6 +134,10 @@ header {
     margin: 80px auto;
 }
 
+section {
+    align-items: center;
+}
+
 .title {
     text-align: center;
     font-size: 4vmin;
@@ -351,7 +355,7 @@ p {
         align-items: center;
     }
     .image-gallery img {
-        width: 90%;
+        width: 400px;
     }
     /*----------Upcoming tours and destination----------*/
     .tours .line {
@@ -431,16 +435,6 @@ p {
     .explore-content .buttons {
         margin-left: -40px;
     }
-    .tours .col {
-        width: 100%;
-    }
-    .image-gallery {
-        justify-content: center;
-        align-items: center;
-    }
-    .image-gallery img {
-        width: 90%;
-    }
     /*----------Upcoming tours and destination----------*/
     .tours .line {
         margin: 10px auto;
@@ -452,8 +446,12 @@ p {
         padding: 0px;
         margin: 10px auto;
     }
-    .image-gallery img {
-        width: 70%;
+    .tours .col {
+        width: 100%;
+    }
+    .image-gallery {
+        justify-content: center;
+        align-items: center;
     }
     /*----------footer----------*/
     .footer {
