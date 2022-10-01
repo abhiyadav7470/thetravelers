@@ -216,8 +216,14 @@ p {
 
 /*----------upcoming tours section----------*/
 
-.content-col {
+.tours {
+    margin: 20px 50px;
+}
+
+.tours .row .col {
     width: 40%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .image-col {
@@ -225,15 +231,41 @@ p {
 }
 
 .tours .image-gallery {
+    width: 800px;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     align-items: center;
 }
 
-.image-gallery img {
-    max-width: 300px;
+.upcomingblocks {
+    color: whitesmoke;
+    text-align: center;
+    width: 300px;
+    height: 180px;
     margin: 10px;
+    padding-top: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    background-size: cover;
+}
+
+.upcomingblocks1 {
+    background-image: url(images/spritingimage.png);
+}
+
+.upcomingblocks2 {
+    background-image: url(images/spritingimage.png);
+    background-position: 0px -219px;
+}
+
+.upcomingblocks3 {
+    background-position: 0px -499px;
+    background-image: url(images/spritingimage.png);
+}
+
+.upcomingblocks4 {
+    background-position: 0px -713px;
+    background-image: url(images/spritingimage.png);
 }
 
 .content-col h1 {
@@ -320,11 +352,15 @@ p {
         margin-left: 2vmin;
     }
     /*----------event section----------*/
-    .row {
+    .events {
+        margin: 30px auto;
+    }
+    .events .row {
+        margin-top: 20px;
         flex-direction: column;
     }
     .row .col {
-        margin: 20px auto;
+        margin: 10px auto;
         text-align: center;
     }
     .row .col h4 {
@@ -337,15 +373,18 @@ p {
         max-width: 90%;
     }
     /*----------explore Section----------*/
-    .explore-content {
+    .explore {
+        height: 80vh;
         width: 100%;
     }
-    .explore-content .line {
-        margin-left: 0px;
+    .explore-content {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        align-items: center;
     }
-    .explore-content p,
-    .explore-content .buttons {
-        margin-left: -40px;
+    .explore-content .line {
+        margin-bottom: 20px;
     }
     .tours .col {
         width: 100%;
@@ -358,15 +397,55 @@ p {
         width: 400px;
     }
     /*----------Upcoming tours and destination----------*/
+    .tours .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .tours .row .col {
+        width: 300px;
+        margin: 10px auto;
+    }
     .tours .line {
         margin: 10px auto;
     }
     .tours .buttons {
         margin: auto;
     }
+    .tours .image-gallery {
+        width: 100%;
+    }
+    .content-col p {
+        margin: 10px auto;
+    }
+    .upcomingblocks {
+        width: 100%;
+        padding-top: 80px;
+        height: 150px;
+        background-size: cover;
+    }
+    .upcomingblocks1 {
+        background-image: url(images/spritingimage.png);
+    }
+    .upcomingblocks2 {
+        background-image: url(images/spritingimage.png);
+        background-position: 0px -219px;
+    }
+    .upcomingblocks3 {
+        background-position: 0px -484px;
+        background-image: url(images/spritingimage.png);
+    }
+    .upcomingblocks4 {
+        background-position: 0px -660px;
+        background-image: url(images/spritingimage.png);
+    }
     /*----------footer----------*/
     .footer {
-        padding: 10px;
+        padding: 5px;
+        min-height: 20px;
+    }
+    .footer p {
+        margin: 3px auto;
+        font-size: 13px;
     }
 }
 
@@ -424,7 +503,7 @@ p {
         width: 100%;
     }
     .explore-content .line {
-        margin-left: 0px;
+        margin: auto;
         margin-bottom: 30px;
     }
     .explore-content p {
@@ -461,6 +540,14 @@ p {
 
 
 /* ----------Animations----------*/
+
+.upcomingblocks {
+    transition: transform .3s ease;
+}
+
+.upcomingblocks:hover {
+    transform: scale(1.1);
+}
 
 img {
     transition: transform .3s ease;
