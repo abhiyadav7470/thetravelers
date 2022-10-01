@@ -54,7 +54,7 @@ header {
 }
 
 
-/*navbar*/
+/*------navbar--------*/
 
 .navbar {
     position: absolute;
@@ -122,7 +122,7 @@ header {
 }
 
 
-/* Section of Upcoming event*/
+/* ----------Section of Upcoming event-----------*/
 
 section {
     width: 80%;
@@ -169,7 +169,7 @@ p {
 }
 
 
-/* Explore section*/
+/*----------Explore section----------*/
 
 .explore {
     width: 100%;
@@ -205,7 +205,7 @@ p {
 }
 
 
-/* upcoming tours section*/
+/*----------upcoming tours section----------*/
 
 .content-col {
     width: 40%;
@@ -246,7 +246,7 @@ p {
 }
 
 
-/* footer section*/
+/*----------footer section----------*/
 
 .footer {
     width: 100%;
@@ -262,7 +262,7 @@ p {
 }
 
 
-/*mobile Device*/
+/*----------mobile Device----------*/
 
 @media only screen and (max-width:850px) {
     .navbar {
@@ -310,7 +310,7 @@ p {
         z-index: 10;
         margin-left: 2vmin;
     }
-    /*event section*/
+    /*----------event section----------*/
     .row {
         flex-direction: column;
     }
@@ -327,7 +327,7 @@ p {
     .col img {
         max-width: 90%;
     }
-    /* explore Section*/
+    /*----------explore Section----------*/
     .explore-content {
         width: 100%;
     }
@@ -348,21 +348,21 @@ p {
     .image-gallery img {
         width: 90%;
     }
-    /*Upcoming tours and destination*/
+    /*----------Upcoming tours and destination----------*/
     .tours .line {
         margin: 10px auto;
     }
     .tours .buttons {
         margin: auto;
     }
-    /*footer*/
+    /*----------footer----------*/
     .footer {
         padding: 10px;
     }
 }
 
 
-/* Animations*/
+/* ----------Animations----------*/
 
 img {
     transition: transform .3s ease;
